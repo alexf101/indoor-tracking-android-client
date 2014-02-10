@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Min API Level is 8 (uses AndroidHttpClient.newInstance())
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="Fingerprint.Backend.Fingerprints"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

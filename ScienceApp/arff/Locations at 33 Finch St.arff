@@ -1,0 +1,50 @@
+@relation 'Locations at 33 Finch St'
+
+@attribute 4c:60:de:2a:c9:ec:2412 numeric
+@attribute 20:4e:7f:71:bc:f1:2412 numeric
+@attribute 90:e6:ba:4c:2b:01:2462 numeric
+@attribute 00:1f:f3:c0:db:8a:2462 numeric
+@attribute 28:cf:da:b0:8f:9d:2437 numeric
+@attribute 9c:d3:6d:b2:5d:38:2437 numeric
+@attribute 'Z-Mag Component' numeric
+@attribute 'Magnitude of Magnetism' numeric
+@attribute 'Phone orientation (radians)' numeric
+@attribute Location {'kitchen stove','sax man','back door',laundry,'kitchen pantry','fancy dish on table','kitchen fridge','kitchen table','fancy dish on wall','kitchen sink','My room desk','theater room couch','corridor cupboard'}
+
+@data
+
+-63,-88,-94,-94,?,?,43.8278,50.3725,1.04242,'kitchen stove'
+-67,-75,-76,-90,?,?,63.6136,72.8104,1.93681,'sax man'
+-72,-90,-94,-88,?,?,34.8275,36.8817,-0.177363,'back door'
+-56,-79,-97,-80,-93,?,37.152,45.4083,1.18227,laundry
+-58,-85,-93,-93,-93,?,73.8132,84.0734,2.9694,laundry
+-53,-89,-97,-84,?,?,40.7364,47.056,0.59455,laundry
+-64,-82,-78,-92,?,?,54.8772,71.3779,1.84999,'kitchen pantry'
+-87,-64,-71,-97,?,?,66.0066,67.918,1.501,'fancy dish on table'
+-70,-83,-89,-89,?,?,55.3026,74.3564,1.8155,'kitchen fridge'
+-80,-96,-93,-97,?,?,41.6258,40.3296,1.23228,'kitchen table'
+-89,-69,-73,-97,?,?,34.3373,38.02,0.211339,'fancy dish on wall'
+-76,-85,-88,-97,?,?,58.5759,61.3315,1.39523,'kitchen sink'
+-46,-85,-92,-89,?,?,36.1578,35.8272,1.82696,'My room desk'
+-45,-84,-93,-87,?,?,35.9733,35.6244,-1.86287,'My room desk'
+-45,-84,-92,-85,?,?,36.0247,35.4291,-1.83511,'My room desk'
+-45,-83,-91,-84,?,?,31.1924,31.0127,-1.497,'My room desk'
+-45,-85,-93,-84,?,?,35.8695,35.4291,-1.82138,'My room desk'
+-46,-84,-96,-82,?,?,36.8297,36.3244,-1.79927,'My room desk'
+-46,-83,-92,-89,?,?,31.991,31.6054,-1.49685,'My room desk'
+-47,-84,-94,-87,?,?,35.7508,35.2439,-1.83472,'My room desk'
+-48,-84,-92,-90,?,?,36.4766,35.9645,-1.83475,'My room desk'
+-46,-84,-91,-83,?,?,31.5489,31.1657,-1.50028,'My room desk'
+-46,-85,-93,-85,?,?,36.0131,35.4497,-1.79102,'My room desk'
+-80,-96,-98,-94,?,-98,38.8739,34.7194,1.32149,'theater room couch'
+-81,-76,-90,-94,?,-96,42.7939,40.3147,0.538895,'corridor cupboard'
+-76,-78,-92,-94,?,-96,43.3035,40.5105,0.528201,'corridor cupboard'
+-71,-79,-90,-94,?,-96,37.5702,34.7206,0.224571,'corridor cupboard'
+-70,-79,-90,-94,?,-96,43.2511,40.0484,0.591943,'corridor cupboard'
+-72,-80,-89,-94,?,-96,43.8098,40.5649,0.485982,'corridor cupboard'
+-71,-79,-87,-94,?,-96,44.2685,40.8556,0.507528,'corridor cupboard'
+-72,-80,-86,-94,?,-96,38.5956,35.7054,0.233918,'corridor cupboard'
+-72,-79,-85,?,?,-96,43.8843,40.4662,0.496023,'corridor cupboard'
+-72,-79,-88,?,?,-96,43.3999,40.773,0.631237,'corridor cupboard'
+-73,-79,-87,?,?,-96,38.9673,35.6476,0.223372,'corridor cupboard'
+-72,-79,-90,?,?,-96,44.3258,41.1535,0.542932,'corridor cupboard'

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LabelFont" parent="@android:TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">6dp</item>
+    </style>
+    <style name="MainFont" parent="@android:TextAppearance">
+        <item name="android:textColor">#474747</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Line" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">#888</item>
+        <item name="android:clickable">false</item>
+    </style>
+    <style name="ScienceAppTheme" parent="Theme.Sherlock.Light">
+        <!--<item name="android:actionBarStyle">@style/ScienceAppTheme.ActionBar</item>
+        <item name="android:actionMenuTextColor">@color/actionBarText</item>-->
+    </style>
+    <!--
+    <style name="ScienceAppTheme.ActionBar" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/ScienceAppTheme.ActionBar.Text</item>
+    </style>
+    <style name="ScienceAppTheme.ActionBar.Text" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/actionBarText</item>
+    </style>
+    -->
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:id="@+id/prefs_screen"
+                  android:key="preferencescreen"
+        >
+    <PreferenceCategory android:title="User">
+        <EditTextPreference
+                android:key="@string/username"
+                android:title="User Name"
+                android:summary="This name will be used to identify you to the API and give you ownership of your data.
+                Change it from the default value to stop other users from modifying your data."
+                android:defaultValue="ScienceAppUser"
+                />
+        <EditTextPreference
+                android:key="@string/password"
+                android:title="Password"
+                android:summary="Your password for API access"
+                android:defaultValue="ScienceAppPassword"
+                />
+    </PreferenceCategory>
+    <!--
+    <PreferenceCategory android:title="Auto Settings">
+        <CheckBoxPreference
+                android:key="@string/prefs_autodelete_key"
+                android:title="Delete at Startup"
+                android:summary="Check to clear at startup"
+                android:defaultValue="false"
+                />
+    </PreferenceCategory>
+    -->
+</PreferenceScreen>

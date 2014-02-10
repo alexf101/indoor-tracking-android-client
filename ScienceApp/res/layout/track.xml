@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:paddingRight="5dp"
+              android:paddingLeft="5dp">
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              style="@style/LabelFont"
+              android:text="Building name" />
+    <AutoCompleteTextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/building"
+            android:hint="Building"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@string/scan_interval"
+                  style="@style/LabelFont"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10"
+                android:id="@+id/scanEvery"
+                android:editable="true"
+                android:numeric="integer"
+                android:inputType="number"/>
+    </LinearLayout>
+    <View
+            style="@style/Line"/>
+    <ScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:scrollbars="vertical">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/initial_tracker_msg"
+            android:id="@+id/locationBox"
+            android:padding="8dp"
+            android:textAppearance="@android:style/TextAppearance.Small"
+            />
+    </ScrollView>
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Confirm last fingerprint?"
+            android:onClick="sendConfirmMsg"
+            android:id="@+id/confirm_button"
+            />
+    <Spinner
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/locations_spinner"
+            />
+</LinearLayout>

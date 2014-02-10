@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingRight="5dp"
+              android:paddingLeft="5dp"
+        >
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              style="@style/LabelFont"
+              android:text="Building name" />
+    <AutoCompleteTextView
+            android:id="@+id/building"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Building"
+            />
+    <TextView android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              style="@style/LabelFont"
+              android:text="Location name" />
+    <AutoCompleteTextView
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Location"
+            android:dropDownWidth="200dp"
+            android:dropDownHorizontalOffset="-30dp"
+            />
+    <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:layout_gravity="center_vertical|left">
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="logXsecs"
+                android:background="@drawable/record_button"
+                android:layout_gravity="left|center_vertical"/>
+        <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            android:minWidth="25dp" />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/stop_btn"
+                android:id="@+id/cancel" android:layout_marginLeft="13dp"
+                android:layout_marginRight="7dp" android:layout_gravity="right" android:onClick="cancel"/>
+    </LinearLayout>
+    <View
+            style="@style/Line"/>
+    <ScrollView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:scrollbars="vertical"
+            >
+    <TextView android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/readout_values"
+              android:isScrollContainer="true"
+              android:text="@string/readout_default"
+              android:paddingLeft="10dp"
+              android:paddingRight="10dp"
+              android:scrollbars="vertical"
+              android:keepScreenOn="true"
+            />
+    </ScrollView>
+</LinearLayout>
